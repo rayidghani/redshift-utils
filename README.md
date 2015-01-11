@@ -19,6 +19,7 @@ Steps:
 
 7. run copy statement
 
+Code
 
 1. convert to UTF-8 and copy to s3 (optionally, files can be split into smaller files and loaded in parallel)
 Shell script:

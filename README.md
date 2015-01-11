@@ -4,6 +4,7 @@ Data loading utilities for redshift
 Input: CSV(s), s3 bucketname, Tablename, Redshift server, db, credentials
 
 Steps:
+
 1. Generate create table statement (with csvsql)
 
 2. convert csv to utf-8 (with iconv)

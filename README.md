@@ -5,11 +5,17 @@ Input: CSV(s), s3 bucketname, Tablename, Redshift server, db, credentials
 
 Steps:
 1. Generate create table statement (with csvsql)
+
 2. convert csv to utf-8 (with iconv)
+
 3. optional - split csv into several parts to load faster (with split)
+
 4. copy to s3 (with s3cmd)
+
 5. connect to redshift instance (with psql)
+
 6. run create table statement
+
 7. run copy statement
 
 

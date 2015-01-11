@@ -7,7 +7,7 @@ Steps:
 
 1. Generate create table statement (with csvsql)
 
-2. convert csv to utf-8 (with iconv)
+2. change encoding to utf-8 (with iconv)
 
 3. optional - split csv into several parts to load faster (with split)
 
